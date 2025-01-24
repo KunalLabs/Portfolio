@@ -83,3 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Event listener for scrolling
     document.addEventListener('scroll', handleScrollAnimation);
+
+  // Initial check on page load
+    document.addEventListener('DOMContentLoaded', handleScrollAnimation);
